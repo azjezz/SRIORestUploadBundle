@@ -12,17 +12,23 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "symfony/symfony": ">=2.3.0",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "php": "^7.0",
+        "symfony/dependency-injection": "^3.4 || ^4.0",
+        "symfony/http-kernel": "^3.4 || ^4.0",
+        "symfony/config": "^3.4 || ^4.0",
+        "symfony/form": "^3.4 || ^4.0",
+        "symfony/http-foundation": "^3.4 || ^4.0",
+        "symfony/framework-bundle": "^3.4 || ^4.0",
+        "symfony/validator": "^3.4 || ^4.0",
+        "symfony/options-resolver": "^3.4 || ^4.0"
     },
     "require-dev": {
         "sensio/framework-extra-bundle": ">=2.3.0",
-        "doctrine/orm": "~2.2,>=2.2.3",
-        "doctrine/doctrine-bundle": ">=1.2.0",
-        "phpunit/phpunit": "3.7.*",
+        "doctrine/orm": "^2.2",
+        "doctrine/doctrine-bundle": "^1.2 || ^2.1",
+        "phpunit/phpunit": "^8.0",
         "knplabs/knp-gaufrette-bundle": ">=0.1.7",
-        "oneup/flysystem-bundle": "~1.4"
+        "oneup/flysystem-bundle": "^1.4"
     },
     "suggest": {
         "doctrine/orm": ">=2.2.3,<2.4-dev",
